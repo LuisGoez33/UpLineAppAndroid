@@ -21,7 +21,22 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void publicaciones (View vista){
+    public void informacion (View vista){
+
+        Intent i = new Intent(this, info
+                .class);
+        startActivity(i);
+
+    }
+
+    public void menu (View vista){
+
+        Intent i = new Intent(this, menu.class);
+        startActivity(i);
+
+    }
+
+    public void publicacion (View vista){
 
         Intent i = new Intent(this, publicacion.class);
         startActivity(i);

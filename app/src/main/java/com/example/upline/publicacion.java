@@ -10,7 +10,7 @@ public class publicacion extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.publicaciones);
-    }
+}
 
     public void main_activity (View vista){
 

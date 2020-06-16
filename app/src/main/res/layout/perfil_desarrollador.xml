@@ -34,10 +34,10 @@
                 android:textSize="18sp" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imageView7"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                app:srcCompat="@drawable/foto_perfil" />
 
             <TextView
                 android:id="@+id/textView20"

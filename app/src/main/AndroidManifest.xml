@@ -9,19 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activity_inicio"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".registro"></activity>
-        <activity android:name=".publicacion"></activity>
-        <activity android:name=".chats"></activity>
-        <activity android:name=".perfil_desarrollador"></activity>
-        <activity android:name=".perfil_empresa"></activity>
-        <activity android:name=".chat"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".registro" />
+        <activity android:name=".publicacion" />
+        <activity android:name=".chats" />
+        <activity android:name=".perfil_desarrollador" />
+        <activity android:name=".perfil_empresa" />
+        <activity android:name=".chat" />
+        <activity android:name=".info" />
     </application>
 
 </manifest>

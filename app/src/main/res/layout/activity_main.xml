@@ -49,8 +49,28 @@
                 android:layout_height="83dp"
                 android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
-                android:onClick="publicaciones"
+                android:onClick="publicacion"
                 android:text="INGRESAR"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="301dp"
+                android:layout_height="83dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:onClick="menu"
+                android:text="MENU"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="300dp"
+                android:layout_height="83dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:onClick="informacion"
+                android:text="INFORMACION"
                 android:textAlignment="center" />
 
             <Button
